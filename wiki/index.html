@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+  <title>Datos Abstractos - Wikipedia</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Datos Abstractos Wiki</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+        <button class="btn btn-outline-success" type="submit" id="search-button">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="cont">
+    <header class="header">
+      <h1>Datos Abstractos</h1>
+    </header>
+    <nav class="sidebar">
+      <ul>
+        <li><h3>Contenido</h3></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#datos-abstractos">Caracteristicas</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#tuplas">Tuplas</a></li>
+        <li><a href="#diccionarios">Diccionarios</a></li>
+      </ul>
+    </nav>
+    <div class="content" id="datos-abstractos">
+        <h2>Caracteristicas</h2>
+        <p>Los datos abstractos son estructuras de datos que se definen por su comportamiento y no por su implementación específica. Estos tipos de datos proporcionan una interfaz bien definida y ocultan los detalles de implementación subyacentes.</p>
+        <ul>
+            <li>Abstracción de datos</li>
+            <li>Encapsulamiento</li>
+            <li>Ocultamiento de la implementación</li>
+            <li>Interfaz bien definida</li>
+            <li>Comportamiento específico</li>
+            <li>Reusabilidad</li>
+            <li>Flexibilidad</li>
+            <li>Modularidad</li>
+          </ul>
+      </div>
+      <div class="content" id="listas">
+        <h2>Listas</h2>
+        <p>Una lista es una estructura de datos que almacena una colección ordenada de elementos. Puede contener elementos del mismo tipo o diferentes tipos de datos. Las listas permiten agregar, eliminar y acceder a elementos de manera eficiente. Algunas operaciones comunes en las listas incluyen agregar elementos al final, insertar elementos en una posición específica, eliminar elementos por valor o posición, y obtener el tamaño de la lista.</p>
+        <ul>
+            <li>Almacenamiento secuencial</li>
+            <li>Acceso mediante índices</li>
+            <li>Capacidad de agregar y eliminar elementos</li>
+            <li>Flexibilidad en el tamaño</li>
+            <li>Posibilidad de contener elementos del mismo o diferente tipo</li>
+          </ul>
+    </div>
+    <div class="content" id="tuplas">
+    <h2>Tuplas</h2>
+    <p>Una tupla es una estructura de datos inmutable que puede contener una secuencia de elementos de diferentes tipos. A diferencia de las listas, las tuplas no se pueden modificar una vez creadas, lo que las hace útiles para representar datos que no deben cambiar. Puedes acceder a los elementos de una tupla utilizando índices y realizar operaciones como concatenación o desempaquetado de tuplas.</p>
+    <ul>
+        <li>Inmutabilidad: no se pueden modificar una vez creadas</li>
+        <li>Acceso mediante índices</li>
+        <li>Uso de paréntesis para su representación</li>
+        <li>Utilidad para representar datos constantes o fijos</li>
+        <li>Posibilidad de desempaquetar tuplas</li>
+      </ul>
+    </div>
+    <div class="content" id="diccionarios">
+    <h2>Diccionarios</h2>
+    <p>Un diccionario es una estructura de datos que almacena pares clave-valor. Cada elemento en un diccionario está asociado con una clave única que se utiliza para acceder a su valor correspondiente. Los diccionarios son útiles cuando necesitas almacenar y recuperar datos de manera eficiente utilizando una clave personalizada en lugar de índices numéricos. Puedes agregar, eliminar y modificar elementos en un diccionario, y también realizar operaciones como iteración sobre las claves o los valores.</p>
+    <ul>
+        <li>Almacenamiento de datos asociados a claves únicas</li>
+        <li>Acceso rápido a los valores a través de las claves</li>
+        <li>Flexibilidad en el tipo de datos de las claves y los valores</li>
+        <li>Capacidad de agregar, eliminar y modificar elementos</li>
+        <li>Iteración sobre las claves o los valores</li>
+      </ul>
+    </div>
+    </div>
+    
+      </div>
+      <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+          &copy; 2023 Datos Abstractos Wiki. Todos los derechos reservados.
+        </div>
+      </footer>  
+    <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

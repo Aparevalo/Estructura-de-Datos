@@ -1,0 +1,46 @@
+
+{
+  "datos-abstractos": {
+    "title": "Datos Abstractos",
+    "characteristics": [
+      "Abstracción de datos",
+      "Encapsulamiento",
+      "Ocultamiento de la implementación",
+      "Interfaz bien definida",
+      "Comportamiento específico",
+      "Reusabilidad",
+      "Flexibilidad",
+      "Modularidad"
+    ]
+  },
+  "listas": {
+    "title": "Listas",
+    "characteristics": [
+      "Almacenamiento secuencial",
+      "Acceso mediante índices",
+      "Capacidad de agregar y eliminar elementos",
+      "Flexibilidad en el tamaño",
+      "Posibilidad de contener elementos del mismo o diferente tipo"
+    ]
+  },
+  "tuplas": {
+    "title": "Tuplas",
+    "characteristics": [
+      "Inmutabilidad: no se pueden modificar una vez creadas",
+      "Acceso mediante índices",
+      "Uso de paréntesis para su representación",
+      "Utilidad para representar datos constantes o fijos",
+      "Posibilidad de desempaquetar tuplas"
+    ]
+  },
+  "diccionarios": {
+    "title": "Diccionarios",
+    "characteristics": [
+      "Almacenamiento de datos asociados a claves únicas",
+      "Acceso rápido a los valores a través de las claves",
+      "Flexibilidad en el tipo de datos de las claves y los valores",
+      "Capacidad de agregar, eliminar y modificar elementos",
+      "Iteración sobre las claves o los valores"
+      ]
+      }
+      }
